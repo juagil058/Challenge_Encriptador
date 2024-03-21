@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <title>Encriptador</title>
+        
+        </head>
+    <body>
+    <header>
+        <div>
+        <h3><img src="img/log.jpg" alt="Encriptador"></h3>
+    </div>
+    </header>
+
+    
+  
+   
+    <main>
+        <section class="primeraSeccion">
+         
+          
+        
+            <p class="copyrigth"> </p>
+            <h1 class="copyrigth">El sistema no aceptará mayúsculas ni caracteres especiales.</h1>
+            <div class="contenedorPrincipal">
+            <div class="ingresaTexto">
+                <textarea name="encriptado" id="ingresaCodigo" cols="30" rows="10" placeholder="Ingrese Texto a Encriptar"></textarea>
+                
+            <div>
+                <button onclick="btnEncriptar()">Encriptar</button>
+                <button onclick="btnDesencriptar()">Desencriptar</button>
+                <button onclick="btnCopiar()" class="botton-copiar">Copiar</button>
+            </div>
+                
+                
+            </div>
+            </div>
+            <div class="contenedorRespuesta">
+                <textarea name="desencriptado" id="ingresaCodigo" cols="30" rows="10" placeholder="Resultado"></textarea>
+                    
+                
+            </div>
+
+             
+                
+        
+
+ 
+    </main>
+    
+
+    <footer>
+        <img src="Img/logo_pag.png" alt="logo pagina">
+        <p class="copyrigth">&copycopyrigth</p>
+        <p class="copyrigth">Juan Pablo Gil P.</p>
+        <p class="copyrigth">Colombia - 2024</p>
+
+    </footer>
+    
+</body>
+    </html>
